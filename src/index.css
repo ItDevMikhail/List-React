@@ -1,8 +1,0 @@
-@import "tailwindcss";
-
-@theme {
-  --text-xxs: 11px;
-  --color-custom-indigo: hsl(184, 98%, 35%);
-  --color-rate-bg: hsl(213, 58%, 93%);
-  --color-item-bg: hsl(220, 27%, 98%);
-}
