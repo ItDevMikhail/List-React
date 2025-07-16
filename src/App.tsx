@@ -3,7 +3,9 @@ import { List } from "./entities/ui/List";
 function App() {
   return (
     <>
-      <List />
+      <div className="max-w-[1024px] mx-auto">
+        <List />
+      </div>
     </>
   );
 }

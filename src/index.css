@@ -1,8 +1,20 @@
 @import "tailwindcss";
+@import "./fonts.css";
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
 
 @theme {
-  --text-xxs: 11px;
-  --color-custom-indigo: hsl(184, 98%, 35%);
-  --color-rate-bg: hsl(213, 58%, 93%);
+  --color-text-black: hsl(0, 0%, 20%);
+  --color-text-gray: hsl(214, 16%, 42%);
+  --color-custom-indigo: hsl(186, 100%, 35%);
+  --color-rate-bg: hsl(214, 54%, 92%);
   --color-item-bg: hsl(220, 27%, 98%);
+  --color-item-border: hsl(214, 54%, 92%);
+}
+
+.display-ruby {
+  display: ruby;
 }
